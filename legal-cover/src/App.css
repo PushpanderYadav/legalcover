@@ -1,0 +1,77 @@
+body {
+  font-family: 'DM Sans';
+}
+
+.accordion-item {
+  border: none;
+  background: none;
+}
+
+/* .custom-accordion .accordion-item:first-child .accordion-button {
+  border-top: 1px solid rgba(0, 0, 0, .125);
+} */
+.custom-accordion{
+  border-top: 1px solid rgba(0, 0, 0, .125);
+}
+
+
+.accordion-button {
+  border-bottom: 1px solid rgba(0, 0, 0, .125);
+}
+
+.btn-yellow {
+  background-color: #FED600;
+  color: black;
+  /* Optional: you might want to make the text color black for better contrast */
+}
+.text-custom{
+  font-size: large;
+  font-weight: bold;
+}
+.headingx{
+  font-weight: bold;
+  color:#101828;
+}
+.colortextyellow{
+  color:#FED600;
+}
+.title-colorYellow{
+  color:#FED600;
+}
+.textFooteritems{
+  color:#848484;
+  font-weight: normal;
+  font-size: small;
+}
+.bg-dark-custom{
+  background-color: #000000;
+}
+.frame-Color-Background{
+  background-color: #000000;
+  color:white;
+}
+.frametitleColor{
+  color:#FED600;
+  margin-left: 4.8rem;
+}
+.content-title{
+  margin-left:2rem;
+}
+.border-top-custom{
+  border-top: 1px solid #414141;
+}
+.fontsizesub-footer{
+  font-size: 14px;
+  font-weight: 700;
+}
+.bg-teaser{
+  background-color: #000000;
+}
+.fontsizeCard2{
+  font-weight: 600;
+  size: 1.5rem;
+}
+.cardheadings {
+  display: flex;
+  justify-content: space-between;
+}
