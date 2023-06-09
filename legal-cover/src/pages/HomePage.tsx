@@ -5,6 +5,8 @@ import Teaser from "../components/home/Teaser";
 import CardMedia from '@mui/material/CardMedia';
 import FileDownloadOutlinedIcon from '@mui/icons-material/FileDownloadOutlined';
 import CarouselComponent from "../components/Carousel";
+import ControlledAccordions from "../components/Accordion";
+import { Container } from "@mui/material";
 
 const HomePage = ()=>{
     return (
@@ -18,7 +20,7 @@ const HomePage = ()=>{
           src="https://www.youtube.com/embed/03jMSIRrf2Q?rel=0&showinfo=0"
         />
         <CarouselComponent/>
-     <div className="bg-dark text-light p-5">
+         <div className="bg-dark text-light p-5">
             <div className="container">
                 <div className="text-start">
                     <h1 className="mb-3 title-colorYellow">What's covered and what's not</h1>
@@ -31,7 +33,9 @@ const HomePage = ()=>{
                 </div>
             </div>
         </div>
-        <FAQ/>
+        <Container maxWidth="md" sx={{ marginTop: '5rem', marginBottom: '4rem' }}>
+        <ControlledAccordions/>
+        </Container>
         <Footer/>
       </>
     );
